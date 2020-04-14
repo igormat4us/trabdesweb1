@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo Vitae</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <div id="cabecalho">
+        <h1>Desenvolvimento Web l</h1>
+        <h2>
+            
+<nav id="menu" align="center">
+    <ul>
+        <a href="index.html" class="botaohd">Index</a>
+        <a href="alunos/eduarda.html" class="botaohd">Eduarda</a>
+        <a href="alunos/igor.html" class="botaohd">Igor</a>
+        <a href="contato.html" class="botaohd">Contato</a>
+    </ul>
+</nav>
+
+        </h2>
+ 
+            <br>
+    <div id="conteudo">
+  
+      <section id="page">
+
+        <form id="formcontact" method="POST">
+            
+            <fieldset>
+    
+                <legend id="formLabel"> Formulário de Contato </legend>
+                <label class="" for="txtNome"> Nome: </label>
+                <input type="text" name="txtNome" id="txtNome" placeholder="Digite o seu nome:"> </br>
+    
+                <label for="email"> E-mail: </label>
+                <input type="text" name="email" id="email" placeholder="Digite o seu e-mail"> </br>
+    
+                <label for="telefone"> Telefone: </label>
+                <input type="text" name="telefone" id="telefone" placeholder="Digite seu número"> </br>
+    
+                <label for="priority"> Prioridade: </label>
+    
+                <div class="select-style">
+    
+                <select id="prioridade" name="priority" id="priority">
+                 
+                    <option value="high"> Alta </option>
+                    <option value="mid"> Média </option>
+                    <option value="low"> Baixa </option>
+                
+                </select> </br>
+    
+                </div>  
+    
+                <label for="msg"> Texto</label>
+                <textarea name="msg" id="msg" rows="6" cols="50"
+                placeholder="Digite sua mensagem"> </textarea> </br>
+    
+                <input id="enviar" type="submit" value="Enviar" onClick="display()">
+    
+            </fieldset>
+    
+        </form>
+    <br>
+    <script src="form.js"> </script>
+        
+   
+
+    </section>
+    </div> <hr>
+    <div id="rodape">
+        <font color="blue" size="3"> 
+            Desenvolvido por Igor e Eduarda 
+            
+        </font>
+    </div>
+
+</body>
+
+</html>
